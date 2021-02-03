@@ -17,7 +17,6 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: Add a GIF comment
-        uses: Marta83/funny-comment-action@v2.1
         id: GifComment
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
